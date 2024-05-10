@@ -1,0 +1,31 @@
+header {
+    background-color:var(--azul-claro);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.logo {
+    height: 3%;
+}
+.lista-navegacion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.linkedin-icon {
+height: 30px;
+color: black;
+}
+.descarga-icon {
+height: 20px;
+}
+.link-descarga {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
