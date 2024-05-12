@@ -29,3 +29,46 @@ height: 15px;
     align-items: center;
     gap: 10px;
 }
+.whatsapp-icon {
+height: 40px;
+}
+
+.Foto {
+height: 300px;
+}
+main {
+    height: 80vh;
+    background: linear-gradient(225deg, var(--azul-1) 20px, var(--azul-2) 90%, var(--azul-3) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+
+}
+.presentacion {
+text-align: center;
+display: grid;
+justify-content: center;
+    gap: 20px;
+}
+.presentacion h1 {
+    font-size: 50px;
+}
+.presentacion h2 {
+    font-size: 20px;
+}
+.presentacion h3 {
+    font-size: 16px;
+}
+.whatsapp-link {
+    background-color: var(--verde);
+    display: flex;
+  align-items: center;
+  text-decoration: none;  
+  gap: 10px ;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 25px;
+
+
+}
